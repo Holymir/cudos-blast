@@ -69,4 +69,4 @@ else
 fi
 
 rm -r ./$init_folder &> /dev/null || true
-exit $exit_status
+exit 1
